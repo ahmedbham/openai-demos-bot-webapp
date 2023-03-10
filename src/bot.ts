@@ -36,7 +36,7 @@ export class EchoBot extends ActivityHandler {
         User: <user input>
         Chatbot:
         `
-        const url = "https://openaimma.openai.azure.com/openai/deployments/text-davinci-003/completions?api-version=2022-12-01"
+        const url = "https://jp-aiservice.openai.azure.com/openai/deployments/text-davinci-003/completions?api-version=2022-12-01"
        
         let conversation_history = ""
         
