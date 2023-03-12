@@ -36,13 +36,14 @@ export class EchoBot extends ActivityHandler {
         User: <user input>
         Chatbot:
         `
-        const url = "https://jp-aiservice.openai.azure.com/openai/deployments/text-davinci-003/completions?api-version=2022-12-01"
+        const url = "https://jp-aiservice.openai.azure.com/openai/deployments/chatbot/completions?api-version=2022-12-01"
        
         let conversation_history = ""
         
         const headers = {
         'Content-Type': 'application/json',
         // 'Authorization': 'Bearer YOUR_TOKEN'
+        
         'api-key': process.env.OPENAI_API_KEY
         }
 
